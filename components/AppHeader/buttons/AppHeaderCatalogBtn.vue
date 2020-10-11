@@ -1,9 +1,9 @@
 <template>
-  <a class="header-catalog-btn button button--secondary" href="/catalog/">
+  <nuxt-link class="header-catalog-btn button button--secondary" to="/catalog/">
     <Icon class="header-catalog-btn__icon header-catalog-btn__icon--catalog" name="gm-catalog" />
     <span class="header-catalog-btn__label">Каталог</span>
     <Icon class="header-catalog-btn__icon header-catalog-btn__icon--angle-top" name="gm-angle-top" />
-  </a>
+  </nuxt-link>
 </template>
 
 <script>
