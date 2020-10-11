@@ -1,5 +1,5 @@
 <template>
-  <component class="header" :is="component" />
+    <component class="header" :is="component" />
 </template>
 
 <script>
